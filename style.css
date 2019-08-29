@@ -1,0 +1,95 @@
+* {
+  font-family: arial;
+}
+
+#personal-det{
+  cursor: url(
+      https://res.cloudinary.com/joseph-burutu/image/upload/c_scale,h_17/v1567037403/kywrejri54cjgv1tn9mn.png
+    ),
+    auto;
+}
+#other-det {
+  padding: 10px;
+}
+body {
+  border: 3px black solid;
+  background-image: linear-gradient(to right, white,white ,#EAEAE6);
+  padding: 0;
+  margin: 0;
+  cursor: url(
+      https://res.cloudinary.com/joseph-burutu/image/upload/c_scale,h_17/v1567037396/bn3zzeq2utohjqgcnjcx.png
+    ),
+    auto !important;
+}
+#personal-det {
+  color: white;
+  background: #171616;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+img {
+  position: center;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  
+}
+
+#intro {
+  text-align: center;
+  line-spacing: 0.5;
+}
+
+#contact p {
+  display: inline-block;
+  margin: 10px;
+}
+.clear {
+  clear: both;
+}
+#intro a {
+  text-decoration: none;
+  color: white;
+}
+.soc {
+  display: inline-block;
+  margin: 10px;
+}
+
+#intro a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+  color: black;
+  border: ridge black 2px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.card:hover {
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card {
+  padding: 5px;
+}
+
+#my-skills ul, #my-referees ul, #my-work-exp ul{
+  line-height: 30px
+}
+
+/*.grey-area {
+  margin: -10px !important;
+  padding: 10px;
+  background-color: #fbfbfb; !important;
+}*/
